@@ -1,0 +1,50 @@
+{
+  "vpcName": "myVPC",
+  "cidrBlock": "172.31.0.0/16",
+  "maxAzs": 2,
+  "enableDnsSupport": true,
+  "enableDnsHostnames": true,
+  "subnetMask": 20,
+  "enableIpv6": true,
+  "subnetConfigurations": [
+      {
+          "name": "pub-subnet1",
+          "subnetType": "PUBLIC",
+          "cidrMask": 24,
+          "mapPublicIpOnLaunch": true,
+          "ipv6Enabled": false
+      },
+      {
+          "name": "pub-subnet2",
+          "subnetType": "PUBLIC",
+          "cidrMask": 24,
+          "mapPublicIpOnLaunch": true,
+          "ipv6Enabled": false
+      },
+      {
+          "name": "priv-subnet1",
+          "subnetType": "PRIVATE_WITH_EGRESS",
+          "cidrMask": 24,
+          "ipv6Enabled": false
+      },
+      {
+          "name": "priv-subnet2",
+          "subnetType": "PRIVATE_WITH_EGRESS",
+          "cidrMask": 24,
+          "ipv6Enabled": false
+      },
+      {
+          "name": "pub-subnet3",
+          "subnetType": "PUBLIC",
+          "cidrMask": 24,
+          "mapPublicIpOnLaunch": true,
+          "ipv6Enabled": true
+      },
+      {
+          "name": "priv-subnet3",
+          "subnetType": "PRIVATE_WITH_EGRESS",
+          "cidrMask": 24,
+          "ipv6Enabled": true
+      }
+  ]
+}
