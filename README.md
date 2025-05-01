@@ -132,3 +132,17 @@ You can customize the VPC by modifying the `myVpcConfig.json` file:
 - Add or remove subnets in the `subnetConfigurations` array
 - Change subnet types between `PUBLIC` and `PRIVATE_WITH_EGRESS`
 - Toggle IPv6 support per subnet with `ipv6Enabled`
+
+## License
+
+This project is licensed under the **BSD 3-Clause License**—a permissive open-source license that allows for modification, distribution, and commercial use while requiring attribution. 
+
+### Key Points:
+- You **must** retain the original copyright notice and license text.
+- You **can** modify and distribute the code freely.
+- You **cannot** use the names of the original authors or contributors for endorsement without permission.
+
+For full details, see the [BSD 3-Clause License](https://fossa.com/blog/open-source-software-licenses-101-bsd-3-clause-license/).
+
+Below is the license badge for quick access:
+- [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
